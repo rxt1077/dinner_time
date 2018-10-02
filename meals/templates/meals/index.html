@@ -1,0 +1,11 @@
+<h1>Welcome to Dinner Time!</h1>
+<h2>Lets see what's for dinner...</h2>
+<hr>
+{% for meal in meals %}
+<div>
+	<div><b>{{ meal.title }}</b></div>
+	<div>Date: {{ meal.date }}</div>
+	<div>Description: {{ meal.description }}</div>
+	<hr>
+</div>
+{% endfor %}
