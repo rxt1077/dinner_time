@@ -1,0 +1,6 @@
+<h1>Add a Meal</h1>
+<form action="add" method="post">
+	{% csrf_token %}
+	{{ form }}
+	<input type="submit" value="Submit">
+</form>
