@@ -1,0 +1,17 @@
+body {
+	padding-left: 15px;
+}
+
+h1, h2 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.meal {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add {
+    border-style: dotted;
+    padding: 5px;
+}
